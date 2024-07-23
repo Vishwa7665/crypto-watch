@@ -1,0 +1,25 @@
+{
+  "name": "crypto-watch",
+  "version": "1.0.0",
+  "description": "This project is a real-time cryptocurrency price tracking application. It fetches price data for various cryptocurrencies from an external API, stores the data in a MongoDB database, and displays the most recent price information on the frontend using Next.js and Redux.",
+  "main": "",
+  "scripts": {
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm run install-server && npm run install-client",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "watch": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishwa7665/crypto-watch.git"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
