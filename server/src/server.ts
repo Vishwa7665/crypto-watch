@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const port = process.env.PORT || 3001;
-const mongodbUrl = process.env.MONGODB_URL || 'your-default-mongodb-url';
+const mongodbUrl = process.env.MONGODB_URL || 'mongodb://localhost:27017/CryptoWatch';
 
 mongoose
     .connect(mongodbUrl, {})

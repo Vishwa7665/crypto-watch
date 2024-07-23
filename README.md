@@ -74,7 +74,7 @@ This project is a real-time cryptocurrency price tracking application. It fetche
 
         # API Credentials
         LIVECOINWATCH_ENDPOINT = "https://api.livecoinwatch.com/coins/map"
-        LIVECOINWATCH_API_KEY = <your_api_livecoinwatch_api_key_here>
+        LIVECOINWATCH_API_KEY = <your_livecoinwatch_api_key_here>
     ```
 
 3. Install dependencies for both frontend and backend:
