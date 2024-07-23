@@ -84,7 +84,7 @@ This project is a real-time cryptocurrency price tracking application. It fetche
     npm run install-all #Installs dependencies in both client and server
     npm run watch #Starts client and server concurrently
     ```
-    OR (If above process is not working then try installing manually by below commands and also follow steps 4 and 5 )
+    OR (If above steps are not working then try installing manually by below commands and also follow steps 4 and 5 after npm install in client and server)
 
     ```bash
     cd client
